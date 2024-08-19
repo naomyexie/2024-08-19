@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/Microsoft-4.css">
+    <link rel="stylesheet" href="./css/swiper-5.css">
+</head>
+
+<body>
+    <nav class="container-normal">
+        <!-- <div class="logo">
+            <img src="./img/ms-logo.png" alt="">
+        </div> -->
+        <ul class="menu pc-menu">
+            <!-- li{選項$@1}*6 -->
+            <a href="">
+                <li>
+                    <span>Microsoft 365</span>
+                </li>
+            </a>
+            <a href="">
+                <li>
+                    <span> 選項B2 </span>
+                </li>
+            </a>
+            <li>
+                <span> 選項CC3 </span>
+            </li>
+            <li>
+                <span> DDDD4 </span>
+            </li>
+            <li class="hide-text">
+                <span> 選項5 </span>
+            </li>
+            <li class="hide-text">
+                <span> 選項6 </span>
+            </li>
+            <li class="show-text">
+                <span> 更多 </span>
+            </li>
+        </ul>
+        <ul class="menu func-menu">
+            <!-- 漢堡按鈕 -->
+            <li class="ham-small">
+
+                <input type="checkbox" id="ham-btn-switch">
+                <label for="ham-btn-switch" class="ham-btn">
+                    堡 鈕
+                </label>
+                <ul class="mobile-menu">
+                    <a href="">
+                        <li>Microsoft-365</li>
+                    </a>
+                    <a href="">
+                        <li>AAAAA</li>
+                    </a>
+                    <a href="">
+                        <li>AAAAA</li>
+                    </a>
+
+                    <li>AAAAA</li>
+                    <li>AAAAA</li>
+                    <li>AAAAA</li>
+                    <input type="checkbox" id="sub-item-switch" class="chevron-switch" hidden>
+                    <label for="sub-item-switch" class="chevron-label">
+                        <li>
+                            <div> 軟體 </div>
+                            <i class="fa-solid fa-chevron-down"></i>
+                            <i class="fa-solid fa-chevron-up"></i>
+                        </li>
+                        <ul class="sub-dropdown-menu">
+                            <a href="">
+                                <li>window</li>
+                            </a>
+                            <a href="">
+                                <li>AAAAA</li>
+                            </a>
+                            <a href="">
+                                <li>AAAAA</li>
+                            </a>
+
+                            <li>AAAAA</li>
+                            <li>AAAAA</li>
+                            <li>AAAAA</li>
+                            <li>BBBBB</li>
+                            <li>BBBBB</li>
+                        </ul>
+                    </label>
+
+                    <input type="checkbox" id="sub-item-2-switch" class="chevron-switch" hidden>
+                    <label for="sub-item-2-switch" class="chevron-label">
+                        <li tabindex="1">
+                            <span> 個人 </span>
+                            <i class="fa-solid fa-chevron-down"></i>
+                            <i class="fa-solid fa-chevron-up"></i>
+                        </li>
+                        <ul class="sub-dropdown-menu">
+                            <a href="">
+                                <li tabindex="1">window</li>
+                            </a>
+                            <a href="">
+                                <li tabindex="1">AAAAA</li>
+                            </a>
+                            <a href="">
+                                <li tabindex="1">AAAAA</li>
+                            </a>
+
+                            <li tabindex="1">AAAAA</li>
+                            <li tabindex="1">AAAAA</li>
+                            <li tabindex="1">AAAAA</li>
+                            <li tabindex="1">BBBBB</li>
+                            <li tabindex="1">BBBBB</li>
+                        </ul>
+                    </label>
+
+                    <input type="checkbox" id="sub-item-3-switch" class="chevron-switch" hidden>
+                    <label for="sub-item-3-switch" class="chevron-label">
+                        <li tabindex="1">
+                            <span> 娛樂 </span>
+                            <i class="fa-solid fa-chevron-down"></i>
+                            <i class="fa-solid fa-chevron-up"></i>
+                        </li>
+                        <ul class="sub-dropdown-menu">
+                            <a href="">
+                                <li tabindex="1">window</li>
+                            </a>
+                            <a href="">
+                                <li tabindex="1">AAAAA</li>
+                            </a>
+                            <a href="">
+                                <li tabindex="1">AAAAA</li>
+                            </a>
+
+                            <li tabindex="1">AAAAA</li>
+                            <li tabindex="1">AAAAA</li>
+                            <li tabindex="1">AAAAA</li>
+                            <li tabindex="1">BBBBB</li>
+                            <li tabindex="1">BBBBB</li>
+                        </ul>
+                    </label>
+
+                    <li tabindex="1">AAAAA</li>
+                </ul>
+
+                <div>
+                    <input type="checkbox" id="all-365-switch" hidden>
+                    <label for="all-365-switch" class="all-365-label">
+            <li>
+                <span>所有的Miscrosoft</span> <i class="fa-solid fa-chevron-down"></i>
+            </li>
+            </label>
+            <div class="dropdown-menu">
+                <ul>
+                    <h4>最新動向</h4>
+                    <a href="">
+                        <li>AAAAAAA</li>
+                    </a>
+
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                </ul>
+                <ul>
+                    <h4>最新動向</h4>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                </ul>
+                <ul>
+                    <h4>最新動向</h4>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                </ul>
+                <ul>
+                    <h4>最新動向</h4>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                </ul>
+                <ul>
+                    <h4>最新動向</h4>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                </ul>
+                <ul>
+                    <h4>最新動向</h4>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                </ul>
+                <div class="review-website">檢視AAAAAA</div>
+            </div>
+            </div>
+            <a href="" class="my-search">
+                <li><span class="hide-text">搜尋</span> <i class="fa-solid fa-chevron-down"></i></li>
+            </a>
+            <a href="">
+                <li><span class="hide-text">選項3</span> <i class="fa-solid fa-chevron-down"></i></li>
+            </a>
+            <a href="">
+                <li><span class="hide-text">選項4</span> <i class="fa-solid fa-chevron-down"></i></li>
+            </a>
+
+            </li>
+        </ul>
+    </nav>
+
+    <header>
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <picture>
+                        <source media="(min-width:1400px)" srcset="./img/swiper/1-1920x600.avif">
+                        <source media="(min-width:1080px)" srcset="./img/swiper/1-1399x600.avif">
+                        <source media="(min-width:860px)" srcset="./img/my-img/C.jpg">
+                        <source media="(min-width:540px)" srcset="./img/my-img/img_parallax-1.jpg">
+                        <img class="w-100" src="./img/my-img/man-1.jpg" alt="">
+                    </picture>
+                </div>
+                <div class="swiper-slide">
+                    <picture>
+                        <source media="(min-width:1400px)" srcset="./img/swiper/2-1920x600.avif">
+                        <source media="(min-width:1080px)" srcset="./img/swiper/2-1399x600.avif">
+                        <source media="(min-width:860px)" srcset="./img/my-img/C.jpg">
+                        <source media="(min-width:540px)" srcset="./img/my-img/img_parallax-1.jpg">
+                        <img class="w-100" src="./img/my-img/man-1.jpg" alt="">
+                    </picture>
+                </div>
+            </div>
+            <span class="stop"></span>
+            <span class="play"></span>
+            <!-- 下一張 -->
+            <div class="swiper-button-next"></div>
+            <!-- 上一張 -->
+            <div class="swiper-button-prev"></div>
+            <!-- 分頁 -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </header>
+
+
+
+    <!-- <header class="container-full my-header">
+        <picture>
+            <source media="(min-width:1400px)" srcset="./img/swiper/1-1920x600.avif">
+            <source media="(min-width:1080px)" srcset="./img/swiper/1-1399x600.avif">
+            <source media="(min-width:860px)" srcset="./img/my-img/C.jpg">
+            <source media="(min-width:540px)" srcset="./img/my-img/img_parallax-1.jpg">
+            <img class="w-100" src="./img/my-img/man-1.jpg" alt="">
+        </picture>
+        <div class="header-text">
+            <div class="real-text">
+                <h2 class="title">AAAAA</h2>
+                <div class="txet">BBBBB</div>
+                <button>我是按鈕</button>
+            </div>
+
+        </div>
+    </header> -->
+    <!-- swiper 按鈕 -->
+    <main class="container-full">
+        <section class="container-normal">
+            <section class="three-choice">
+                <!-- 三個選擇 -->
+                <div class="one-choice">
+                    <img src="./img/three-choice/1-365.svg" alt="">
+                    <div>選擇您的 Microsoft 365</div>
+                </div>
+                <div class="one-choice">
+                    <img src="./img/three-choice/1-365.svg" alt="">
+                    <div>選擇您的 Microsoft 365</div>
+                </div>
+                <div class="one-choice">
+                    <img src="./img/three-choice/1-365.svg" alt="">
+                    <div>選擇您的 Microsoft 365</div>
+                </div>
+            </section>
+            <section class="four-card">
+                <!-- 四張卡片 -->
+                <div class="one-card">
+                    <img src="./img/four-card/1-4.webp" alt="">
+                    <div>選擇您的</div>
+                </div>
+                <div class="one-card">
+                    <img src="./img/four-card/1-4.webp" alt="">
+                    <div>選擇您的</div>
+                </div>
+                <div class="one-card">
+                    <img src="./img/four-card/1-4.webp" alt="">
+                    <div>選擇您的</div>
+                </div>
+                <div class="one-card">
+                    <img src="./img/four-card/1-4.webp" alt="">
+                    <div>選擇您的</div>
+                </div>
+            </section>
+        </section>
+        <section class="container-full">
+            <section class="container-normal">
+                <section class="big-img">
+                    <!-- 大圖 -->
+                    <picture>
+                        <source media="(min-width:1400px)" srcset="./img/swiper/2-1596x600.avif">
+                        <source media="(min-width:1080px)" srcset="./img/swiper/2-1260x600.avif">
+                        <source media="(min-width:860px)" srcset="./img/my-img/C.jpg">
+                        <source media="(min-width:540px)" srcset="./img/my-img/img_parallax-1.jpg">
+                        <!-- 如果都沒有圖就用這一張 -->
+                        <img class="w-100" src="./img/my-img/man-1.jpg" alt="">
+                    </picture>
+                    <div class="header-text">
+                        <div class="real-text">
+                            <h2 class="title">AAAAA</h2>
+                            <div class="txet">BBBBB</div>
+                            <button>我是按鈕</button>
+                        </div>
+
+                    </div>
+                </section>
+                <section class="four-card four-card-bottom">
+                    <!-- 四張卡片 -->
+                    <a href="" class="one-card">
+                        <img src="./img/four-card/1-4.webp" alt="">
+                        <div>選擇您的</div>
+                    </a>
+                    <div class="one-card">
+                        <img src="./img/four-card/1-4.webp" alt="">
+
+
+                        <a href="">AAAA </a>
+                        <a href="" class="underline">
+                            <div>選擇您的</div>
+                        </a>
+                    </div>
+                    <a class="one-card">
+                        <img src="./img/four-card/1-4.webp" alt="">
+                        <div>選擇您的</div>
+                    </a>
+
+                    <a class="one-card">
+                        <img src="./img/four-card/1-4.webp" alt="">
+                        <div>選擇您的</div>
+                    </a>
+                </section>
+                <section class="other">其他</section>
+            </section>
+            <div class="go-top">回到首頁</div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container-normal">
+            <div class="footer-menu">
+                <ul>
+                    <h4>最新動向</h4>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                </ul>
+                <ul>
+                    <h4>最新動向</h4>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                </ul>
+                <ul>
+                    <h4>最新動向</h4>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                </ul>
+                <ul>
+                    <h4>最新動向</h4>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                </ul>
+                <ul>
+                    <h4>最新動向</h4>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                </ul>
+                <ul>
+                    <h4>最新動向</h4>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                    <li>AAAAAAA</li>
+                </ul>
+
+            </div>
+            <div class="footer-nav">
+                <ul class="footer-nav-left">
+                    <li>BBBBB</li>
+                    <li>BBBBB</li>
+                    <li>BBBBB</li>
+                </ul>
+                <ul class="footer-nav-right">
+                    <li>cccccc</li>
+                    <li>cccccc</li>
+                    <li>cccccc</li>
+                    <li>cccccc</li>
+                    <li>cccccc</li>
+                    <li>cccccc</li>
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            autoplay: true,
+            // autoplay: {
+            //     delay: 2500, // 每 2.5 秒自動切換一次
+            //     disableOnInteraction: false, // 設定用戶互動後不停止自動播放
+            // },
+            // 循環
+            loop: true,
+            // 預設:水平移動
+            // 導覽
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            // 分頁
+            pagination: {
+                el: ".swiper-pagination",
+                // 按圈圈賄動作
+                clickable: true,
+            },
+        });
+
+        const stopBtn = document.querySelector('.stop');
+        const playBtn = document.querySelector('.play');
+        
+        stopBtn.addEventListener('click',() => {
+            console.log('stop');
+            swiper.autoplay.stop();
+            stopBtn.style.display = 'none';
+            playBtn.style.display = 'inline-block';
+        })
+
+        playBtn.addEventListener('click',() => {
+            console.log('play');
+            swiper.autoplay.start();
+            playBtn.style.display = 'none';
+            stopBtn.style.display = 'inline-block';
+        })
+
+    </script>
+</body>
+
+</html>
